@@ -34,3 +34,23 @@ class MarvelCharactersModel {
     );
   }
 }
+
+class MoviePoster {
+  String poster;
+  String title;
+  int year;
+
+  MoviePoster({
+    required this.poster,
+    required this.title,
+    required this.year,
+  });
+
+  factory MoviePoster.fromMap({required Map<String, dynamic> data}) {
+    return MoviePoster(
+      poster: data['poster'],
+      title: data['title'],
+      year: data['year'],
+    );
+  }
+}

@@ -11,16 +11,18 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+
     Timer(const Duration(seconds: 35), () {
       // MaterialPageRoute route = MaterialPageRoute(
       //   builder: (context) => const HomePage(),
       // );
+      print("Splash Screen Coming");
       Navigator.pushReplacement(
         context,
         PageRouteBuilder(
           pageBuilder: (context, animation, _) => const HomePage(),
           transitionDuration: const Duration(seconds: 2),
-          reverseTransitionDuration: const Duration(seconds: 2),
+          // reverseTransitionDuration: const Duration(seconds: 2),
           transitionsBuilder: (context, animation, secondaryAnimation, child) {
             Offset begin = const Offset(0.0, -1.0);
             Offset end = Offset.zero;

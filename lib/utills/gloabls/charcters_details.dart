@@ -15,17 +15,17 @@ class CharactersDetails {
       'isHover': false,
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}iron_man_1.jpg",
           'title': "Iron Man",
           'year': 2008,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}iron_man_2.jpg",
           'title': "Iron Man 2",
           'year': 2010,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}iron_man_3.jpeg",
           'title': "Iron Man 3",
           'year': 2013,
         }
@@ -42,17 +42,17 @@ class CharactersDetails {
       'isHover': false,
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}captain_america_1.jpg",
           'title': "Captain America: The First Avenger",
           'year': 2011,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}captain_america_2.jpg",
           'title': "The Avengers",
           'year': 2012,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}captain_america_3.jpg",
           'title': "Captain America: The Winter Soldier",
           'year': 2014,
         }
@@ -70,17 +70,17 @@ class CharactersDetails {
       'isHover': false,
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}thor_1.jpg",
           'title': "Thor",
           'year': 2011,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}thor_2.jpg",
           'title': "Thor: The Dark World",
           'year': 2013,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}thor_3.jpg",
           'title': "Thor: Ragnarok",
           'year': 2017,
         }
@@ -97,17 +97,17 @@ class CharactersDetails {
       'isHover': false,
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}hulk_1.jpeg",
           'title': "The Incredible Hulk",
           'year': 2008,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}captain_america_2.jpg",
           'title': "The Avengers",
           'year': 2012,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}thor_3.jpg",
           'title': "Thor: Ragnarok",
           'year': 2017,
         }
@@ -124,17 +124,17 @@ class CharactersDetails {
       'color': const Color(0xffD24545),
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}spider_man_1.jpg",
           'title': "Spider-Man: Homecoming",
           'year': 2017,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}spider_man_2.jpg",
           'title': "Spider-Man: Far From Home",
           'year': 2019,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}spider_man_3.jpg",
           'title': "Spider-Man: No Way Home",
           'year': 2021,
         }
@@ -152,12 +152,12 @@ class CharactersDetails {
       'color': const Color(0xff1fd655),
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}doctor_strange_1.jpg",
           'title': "Doctor Strange",
           'year': 2016,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}doctor_strange_2.jpg",
           'title': "Doctor Strange in the Multiverse of Madness",
           'year': 2022,
         }
@@ -174,17 +174,17 @@ class CharactersDetails {
       'color': const Color(0xff533b9c),
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}black_panther_1.jpeg",
           'title': "Black Panther",
           'year': 2018,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}black_panther_2.jpg",
           'title': "Avengers: Infinity War",
           'year': 2018,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}black_panther_3.jpg",
           'title': "Black Panther: Wakanda Forever",
           'year': 2022,
         }
@@ -201,17 +201,17 @@ class CharactersDetails {
       'isHover': false,
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}scarlet_witch_1.jpg",
           'title': "Avengers: Age of Ultron",
           'year': 2015,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}scarlet_witch_2.jpeg",
           'title': "Captain America: Civil War",
           'year': 2016,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}scarlet_witch_3.jpg",
           'title': "Avengers: Infinity War",
           'year': 2018,
         }
@@ -228,17 +228,17 @@ class CharactersDetails {
       'color': const Color(0xff1d4a56),
       "movies": [
         {
-          'poster': "",
+          'poster': "${characterPath}",
           'title': "Avengers: Age of Ultron",
           'year': 2015,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}",
           'title': "Captain America: Civil War",
           'year': 2016,
         },
         {
-          'poster': "",
+          'poster': "${characterPath}black_panther_2.jpg",
           'title': "Avengers: Infinity War",
           'year': 2018,
         }
@@ -255,12 +255,12 @@ class CharactersDetails {
       'color': const Color(0xff4038ff),
       "movies": [
         {
-          "poster": "",
+          "poster": "${characterPath}captain_marvel_1.jpg",
           "title": "Captain Marvel",
           "year": 2019,
         },
         {
-          "poster": "",
+          "poster": "${characterPath}captain_marvel_2.jpg",
           "title": "Avengers: Endgame",
           "year": 2019,
         }
